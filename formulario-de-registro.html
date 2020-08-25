@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles2.css">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@600&display=swap" rel="stylesheet">
+    <title>Registro del Tecnico - Base de datos del Equipo del REAL MADRID</title>
+</head>
+<body>
+    <header class="header">
+        <img class="header__img" src="http://localhost/realmadrid\real-madrid-logo.png" alt="">
+    </header>
+    <section class="register">
+        <section class="register__container">
+            <h2>Formulario de Registro del Tecnico</h2>
+            <form method="post" action="insert_player.php" class="register__container--form">
+                <input name="nombre" class="input" type="text" placeholder="Nombre">
+                <input name="apellido" class="input" type="text" placeholder="Apellido">
+                <input name="cedula" class="input" type="text" placeholder="Cedula">
+                <input name="edad" class="input" type="text" placeholder="Edad">
+                <input name="email" class="input" type="text" placeholder="Email">
+                <button type="submit" class="button">Guardar</button>
+            </form>
+            <p class="register__container--register">Regresa a la <a href="">Pagina de Inicio</a></p>
+        </section>
+    </section>
+    <footer class="footer">
+        <a href="/">Términos de uso</a>
+        <a href="/">Declaracion de privacidad</a>
+        <a href="/">Centro de ayuda</a>
+    </footer>
+</body>
+</html>
